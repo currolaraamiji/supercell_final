@@ -1,0 +1,70 @@
+body
+/* SIRVE PARA ABRIR Y CERRA */
+{
+    /* SIRVE PARA AÑADIR EL COLOR DEL FONDO DE LA PAGINA */
+    background-color: rgba(203, 223, 223, 0.514); 
+}
+
+.titulo{
+/* SIRVE PARA AÑADIRCOLOR A LAS LETRAS */
+    color: rgb(249, 246, 253);
+    /* SIRVE PARA CAMBIAR EL ESTILO DELA LETRA */
+    /*font-family:*/
+    /*SIRVE PARA ALINEAR LOS TEXTOS AL CENTRO */
+    /*text-align: center;*/
+    padding-left: 50px;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.subtitulo{
+/* SIRVE PARA CAMBIAR EL TAMAÑO */
+    font-size: 2em;
+    text-align: center;
+}
+
+.cuadro2{
+    position: relative;
+}
+.cuadro1{
+    /* SIRVE PARA DAR COLORAL RECUADRO SELECCIONADO */
+    background: rgb(24, 26, 25); 
+    /* SIRVE PARA SELECCIONAR EL TAMAÑO DEL CUADRO. LARGO Y ANCHO */
+    height: 100px;
+    width: 1000px;
+    /* SIRVE PARA CENTRAR LOS CUADROS HACI EL MEDIO */
+    position: fixed;
+    z-index: 2;
+    left: 170px;
+}
+
+.carousel-slide{
+    position: absolute;
+    z-index: 1;
+
+}
+
+.cuadro3{
+    position: relative;
+    top: 555px;
+}
+
+.imagentop {
+    width: 100%;
+  }
+
+.footer{
+    background-color: rgb(26, 24, 24) !important; 
+    /*width: 1000px;*/
+    inline: block;
+}
+.texto{
+    color: rgb(95, 90, 102) !important; 
+    padding-left: 0px;
+    padding-top: 50px;
+}
+
+.rowlogo{
+    position: relative;
+    z-index: 2;
+}
